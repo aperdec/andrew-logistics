@@ -1,0 +1,54 @@
+{
+  "name": "Airspace | Creative Agency Hugo Template",
+  "short_name": "Airspace | Creative Agency Hugo Template",
+  "lang": "fr",
+  "theme_color": "#655e7a",
+  "background_color": "#fff",
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "icons": [
+    {
+      "src": "/images/favicon_hu_71aaf925eec234a3.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_a8e24199b27e7310.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_58b7745f6fcab17e.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_cfe364c0ae730ff2.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_c3cc80af860fb5a7.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_57e28349cfbd4510.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  
+  
+  "display": "standalone",
+  "start_url": "//localhost:1313/?utm_source=web_app_manifest"
+}
