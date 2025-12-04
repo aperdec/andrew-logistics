@@ -1,0 +1,37 @@
+{{ if .Site.Data.team.enable }}
+<section class="section bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">{{ .Site.Data.team.title }}</h2>
+        <p>{{ .Site.Data.team.description }}</p>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Site.Data.team.teamMember }}
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="team-item text-center">
+          <div class="image-block">
+            <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-fluid mx-auto d-block">
+          </div>
+          <div class="team-title mt-3">
+            <h3>{{ .name }}</h3>
+            <p>{{ .designation }}</p>
+          </div>
+          <div class="team-content">
+            <p>{{ .description }}</p>
+            <ul class="list-inline social-links">
+              {{ range .social }}
+              <li class="list-inline-item">
+                <a href="{{ .link }}"><i class="{{ .icon }}"></i></a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

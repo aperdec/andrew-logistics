@@ -1,0 +1,35 @@
+enable: true
+title: "Our Leadership"
+description: "Experts in energy commodities and logistics."
+
+teamMember:
+- name: "Gautam Sinha"
+  designation: "President & CEO"
+  image: "images/team/gautam-sinha.jpg"
+  description: "Gautam holds a BSc in Chemical Engineering from the University of Alberta and brings extensive experience in natural gas 
+    liquids trading and marketing across North America. He has a proven track record of leading commercial teams, negotiating strategic agreements, 
+    and implementing risk management strategies that drive growth and value creation. Prior to his current role as President & CEO, Gautam held 
+    senior positions overseeing marketing, trading, and market development, establishing a strong foundation in both technical and commercial 
+    aspects of the energy sector. Outside of work, he enjoys spending time with family, playing golf, and producing music."
+  social:
+        - icon: "ion-social-linkedin"
+          link: "#"
+  # - name: "Andrew Perdec"
+  #   designation: "Logistics & Operations"
+  #   image: "images/team/andrew.jpg"
+  #   description: "9 years of full-stack experience, specializing in supply acquisitions."
+  #   social:
+  #       - icon: "ion-social-linkedin"
+  #         link: "#"
+  #       - icon: "ion-email"
+  #         link: "mailto:andrew@example.com"
+
+  # - name: "Tanner Hicks"
+  #   designation: "Head of Sales"
+  #   image: "images/team/tanner.jpg"
+  #   description: "Expert in contract negotiation and client relations."
+  #   social:
+  #       - icon: "ion-social-linkedin"
+  #         link: "#"
+
+  
