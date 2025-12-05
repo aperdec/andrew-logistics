@@ -1,6 +1,6 @@
 {
-  "name": "Airspace | Creative Agency Hugo Template",
-  "short_name": "Airspace | Creative Agency Hugo Template",
+  "name": "Summerlin Ltd.",
+  "short_name": "Summerlin Ltd.",
   "lang": "en-US",
   "theme_color": "#655e7a",
   "background_color": "#fff",
@@ -17,32 +17,32 @@
   
   "icons": [
     {
-      "src": "/images/favicon_hu_71aaf925eec234a3.png",
+      "src": "/images/favicon_hu_85529b017b1dc7a8.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_a8e24199b27e7310.png",
+      "src": "/images/favicon_hu_30d6cc50613c6263.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_58b7745f6fcab17e.png",
+      "src": "/images/favicon_hu_aa8adb6ebdf04c48.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_cfe364c0ae730ff2.png",
+      "src": "/images/favicon_hu_be85c4d40fe80c1a.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_c3cc80af860fb5a7.png",
+      "src": "/images/favicon_hu_dd02fbe8e0a28915.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/favicon_hu_57e28349cfbd4510.png",
+      "src": "/images/favicon_hu_f84080a955bbb864.png",
       "sizes": "512x512",
       "type": "image/png"
     }

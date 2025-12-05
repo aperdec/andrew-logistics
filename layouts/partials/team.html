@@ -1,3 +1,26 @@
+<style>
+  /* This forces the card look, overriding theme defaults */
+  .custom-team-card {
+      background: #ffffff !important; /* Force white background */
+      border: 1px solid #e0e0e0;      /* A nice subtle gray border */
+      border-radius: 8px;             /* Rounded corners */
+      padding: 35px 20px;             /* Internal spacing around text */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* A professional drop shadow */
+      height: 100%;                   /* Makes all cards in a row the same height */
+      transition: transform 0.3s ease; /* Adds a smooth effect on hover */
+  }
+
+  /* Optional: makes it pop up slightly when you hover over it */
+  .custom-team-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+  }
+
+  /* Adds space below the image so it doesn't crowd the name */
+  .custom-team-card .team-title {
+      margin-top: 25px;
+  }
+</style>
 {{ if .Site.Data.team.enable }}
 <section class="section bg-gray">
   <div class="container">
@@ -7,14 +30,14 @@
         <p>{{ .Site.Data.team.description }}</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row align-items-stretch">
       {{ range .Site.Data.team.teamMember }}
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="team-item text-center">
+      <div class="col-lg-4 col-md-6 col-12 mb-4">
+        <div class="team-item text-center custom-team-card">
           <div class="image-block">
             <img src="{{ .image | absURL }}" alt="{{ .name }}" class="img-fluid mx-auto d-block">
           </div>
-          <div class="team-title mt-3">
+          <div class="team-title">
             <h3>{{ .name }}</h3>
             <p>{{ .designation }}</p>
           </div>

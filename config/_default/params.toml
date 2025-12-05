@@ -17,16 +17,16 @@ image = "images/logo.png" # this image will be used as fallback if a page has no
 # Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
 address_descriptors = false
 # contact info
-phone = "0124857985320"
-email = "demo@email.com"
+phone = "(403) 996-2390"
+email = "gsinha@summerlinltd.com"
 location = """
-**Themefisher**  
-North Main Street  
-Brooklyn, New South Wales  
-Australia
+**Summerlin Ltd.**  
+Office 2, Suite 2700-150 9 Ave SW  
+Calgary, AB  
+Canada
 """
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+# copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script= ""
 # google tag manager, see https://developers.google.com/tag-manager/
@@ -91,9 +91,9 @@ baidu = "" # Your verification code
 # google map
 [gmap]
 enable = true
-gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+gmap_api = "AIzaSyC06hEY2A7deyonDqFqDJL9heq8wzm3CRg"
+map_latitude = "51.044889"
+map_longitude = "114.065222S"
 map_marker = "images/marker.png"
 
 # cookies

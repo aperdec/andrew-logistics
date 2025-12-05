@@ -1,7 +1,7 @@
 ---
 title: "About Our Company"
 description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+bg_image: "images/slider-bg.png"
 layout: "about"
 draft: false
 
@@ -9,7 +9,7 @@ draft: false
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
+  image : "images/company/about.png"
   title : "We strive to be the best."
   content : "At Summerlin, we specialize in the marketing and trading of natural gas liquids across the North American market.  Founded by industry veterans with decades of combined experience, our company was built on a simple promise: <b>deliver reliable products, insightful market intelligence, and exceptional customer service to every partner we serve.</b>
 

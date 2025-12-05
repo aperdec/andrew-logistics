@@ -1,7 +1,7 @@
 ---
-title: "Drop Us A Note"
-description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+title: "Contact Us"
+description: "We look forward to working with you"
+bg_image: "images/wrapper-bg.png"
 layout: "contact"
 draft: false
 ---
