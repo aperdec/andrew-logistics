@@ -47,7 +47,6 @@
     ],
     "classes": [
       "about",
-      "about-img",
       "active",
       "address-block",
       "align-items-stretch",
@@ -88,7 +87,6 @@
       "container",
       "container-fluid",
       "copyright",
-      "counter-box",
       "current",
       "custom-team-card",
       "d-block",
@@ -146,7 +144,6 @@
       "media-heading",
       "media-object",
       "mt-30",
-      "mt-40",
       "mt-50",
       "mx-auto",
       "nav",

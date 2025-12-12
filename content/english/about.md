@@ -8,7 +8,7 @@ draft: false
 
 ################################## About #####################################
 about:
-  enable : true
+  enable : false
   image : "images/company/about.png"
   title : "We strive to be the best."
   content : "At Summerlin, we specialize in the marketing and trading of natural gas liquids across the North American market.  Founded by industry veterans with decades of combined experience, our company was built on a simple promise: <b>deliver reliable products, insightful market intelligence, and exceptional customer service to every partner we serve.</b>
@@ -113,7 +113,7 @@ mission_vision:
 
 #   # tab item loop
   - name : "Mission"
-    content : "To provide reliable propane and butane supply solutions through smart trading, strong relationships, and unwavering integrity."
+    content : "To provide reliable commodity solutions through smart trading, strong relationships, and unwavering integrity."
 
 #   # tab item loop
 #   - name : "Approach"

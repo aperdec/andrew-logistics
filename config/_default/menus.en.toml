@@ -7,7 +7,7 @@ url = ""
 weight = 1
 
 [[main]]
-name = "About"
+name = "Our Team"
 url = "about/"
 weight = 2
   
@@ -19,7 +19,7 @@ weight = 3
 
 # footer menu
 [[footer]]
-name = "About"
+name = "Our Team"
 url = "about/"
 weight = 2
 
