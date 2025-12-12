@@ -79,8 +79,6 @@
   </url><url>
     <loc>//localhost:1313/message_sent/</loc>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
-  </url><url>
     <loc>//localhost:1313/author/</loc>
   </url><url>
     <loc>//localhost:1313/contact/</loc>
@@ -92,6 +90,8 @@
     <loc>//localhost:1313/pricing/</loc>
   </url><url>
     <loc>//localhost:1313/project/</loc>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
   </url><url>
     <loc>//localhost:1313/project/rio-furniture-1/</loc>
   </url><url>
