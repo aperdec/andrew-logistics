@@ -149,16 +149,6 @@
 
 
 
-<script src="https://www.google.com/recaptcha/api.js?render=xxx-xxxxxxxxxxxxxxxxxxxxxxxx"></script>
-<script>
-  grecaptcha.ready(function() {
-      grecaptcha.execute('xxx-xxxxxxxxxxxxxxxxxxxxxxxx', {action: 'homepage'})
-      .then(function(token) {
-        document.getElementById('captchaResponse').value = token;
-      });
-    });
-</script>
-
 
 
 	
@@ -332,7 +322,7 @@
 	<main>
 		
 
-<section class="page-title bg-2" style="background-image: url('/images/wrapper-bg.png');">
+<section class="page-title bg-2" style="background-image: url('/images/slider-bg.png');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -349,7 +339,7 @@
 <section class="contact-form">
   <div class="container">
     <div class="row">
-      <form name="contact-form" method="POST" data-netlify="true" action="/contact-success">
+      <form method="POST" name="contact_en" action="/message_sent" netlify netlify-honeypot="nhp">
         <div class="col-md-6 col-sm-12">
           <div class="block">
             <div class="form-group">
@@ -367,9 +357,7 @@
             <div class="form-group-h">
               <input name="nhp" type="text" class="form-control" placeholder="Are you made of flesh and bone?">
             </div>
-            <div class="form-group-h">
-              <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
-            </div>
+            
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
@@ -404,7 +392,7 @@ Canada</div></li>
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="google-map">
-            <div class="map" id="map" data-latitude="51.044889" data-longitude="114.065222S" data-marker="/images/marker.png" data-marker-name="Summerlin Ltd."></div>
+            <div class="map" id="map" data-latitude="51.04495" data-longitude="-114.06501" data-marker="/images/marker.png" data-marker-name="Summerlin Ltd."></div>
           </div>
         </div>
       </div>

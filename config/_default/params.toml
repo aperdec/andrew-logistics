@@ -39,7 +39,7 @@ enable = true
 # Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
 use_netlify = true
 # Whether to use recaptch v3 in form
-use_recaptcha = true
+use_recaptcha = false
 # Form action
 ## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
 ## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included) 
@@ -92,8 +92,8 @@ baidu = "" # Your verification code
 [gmap]
 enable = true
 gmap_api = "AIzaSyC06hEY2A7deyonDqFqDJL9heq8wzm3CRg"
-map_latitude = "51.044889"
-map_longitude = "114.065222S"
+map_latitude = "51.04495"
+map_longitude = "-114.06501"
 map_marker = "images/marker.png"
 
 # cookies
