@@ -20,12 +20,27 @@
   .custom-team-card .team-title {
       margin-top: 25px;
   }
+
+  /* Reduce spacing between section title and description */
+  .team-header .section-title {
+      margin-bottom: 10px;
+  }
+
+  /* Increase font size of the section description */
+  .team-header p {
+      font-size: 20px;
+  }
+
+  /* Justify the description text within the card */
+  .custom-team-card .team-content p {
+      text-align: justify;
+  }
 </style>
 {{ if .Site.Data.team.enable }}
 <section class="section bg-gray">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5">
+      <div class="col-12 text-center mb-5 team-header">
         <h2 class="section-title">{{ .Site.Data.team.title }}</h2>
         <p>{{ .Site.Data.team.description }}</p>
       </div>

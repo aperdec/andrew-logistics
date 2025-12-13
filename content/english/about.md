@@ -113,7 +113,7 @@ mission_vision:
 
 #   # tab item loop
   - name : "Mission"
-    content : "To provide reliable commodity solutions through smart trading, strong relationships, and unwavering integrity."
+    content : "<span style=\"font-size: 1.75rem;\">To provide reliable commodity solutions through smart trading, strong relationships, and unwavering integrity.</span>"
 
 #   # tab item loop
 #   - name : "Approach"
