@@ -46,7 +46,7 @@
       "ul"
     ],
     "classes": [
-      "about",
+      "about-content",
       "active",
       "address-block",
       "align-items-stretch",
@@ -73,9 +73,7 @@
       "col-md-12",
       "col-md-3",
       "col-md-4",
-      "col-md-5",
       "col-md-6",
-      "col-md-7",
       "col-md-8",
       "col-md-offset-2",
       "col-sm-12",
@@ -209,6 +207,7 @@
       "tabCommon",
       "team-content",
       "team-header",
+      "team-header-box",
       "team-item",
       "team-title",
       "testimonial",

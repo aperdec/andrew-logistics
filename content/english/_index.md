@@ -16,12 +16,12 @@ about:
   enable: true
   title: "About Us"
   description: "At Summerlin, we specialize in the marketing and trading of natural gas liquids across the North American market.  Founded by industry veterans with decades of combined experience, our company was built on a simple promise: <b>deliver reliable products, insightful market intelligence, and exceptional customer service to every partner we serve.</b>"
-  content: "We operate at the intersection of energy supply and demand, connecting producers, midstream operators, wholesalers, and end-users through   efficient, transparent, and flexible commercial solutions.  Our team brings deep expertise in NGL logistics, storage, transportation, pricing, and risk management, allowing us to navigate market volatility and deliver value-driven results.
+  # content: "We operate at the intersection of energy supply and demand, connecting producers, midstream operators, wholesalers, and end-users through   efficient, transparent, and flexible commercial solutions.  Our team brings deep expertise in NGL logistics, storage, transportation, pricing, and risk management, allowing us to navigate market volatility and deliver value-driven results.
 
-    What sets us apart is our commitment to <b>trust, performance, and long-term relationships.</b>  We prioritize safety and operational excellence, while continuously investing in the systems, data, and partnerships needed to ensure dependable supply across seasons and geographies.
+  #   What sets us apart is our commitment to <b>trust, performance, and long-term relationships.</b>  We prioritize safety and operational excellence, while continuously investing in the systems, data, and partnerships needed to ensure dependable supply across seasons and geographies.
 
-    Whether supporting regional retailers, petrochemical consumers, export-focused traders, or upstream producers seeking optimized netbacks, Summerlin is dedicated to being a nimble, knowledgeable, and customer-focused partner in the evolving North American NGL landscape."
-  image: "images/wrapper-img.png"
+  #   Whether supporting regional retailers, petrochemical consumers, export-focused traders, or upstream producers seeking optimized netbacks, Summerlin is dedicated to being a nimble, knowledgeable, and customer-focused partner in the evolving North American NGL landscape."
+  bg_image: "images/wrapper-img.png"
 
 
 ######################### Portfolio ###############################

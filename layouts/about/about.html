@@ -67,7 +67,7 @@
 {{ end }}
 {{ end }}
 
-<section class="testimonial section-sm">
+<section class="testimonial section-sm" style="padding: 70px;">
   <div class="container">
     <div class="row">
       {{ if .Params.testimonial.enable }}
@@ -93,7 +93,7 @@
 
       {{ with .Params.mission_vision }}
       {{ if .enable }}
-      <div class="col-md-6">
+      <div class="col-md-8 col-md-offset-2">
         <div class="tabCommon">
           <ul class="nav nav-tabs">
             {{ range $index, $elements := .tabs }}

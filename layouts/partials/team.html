@@ -35,14 +35,26 @@
   .custom-team-card .team-content p {
       text-align: justify;
   }
+
+  /* White box for the section header */
+  .team-header-box {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      display: block;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 50px;
+  }
 </style>
 {{ if .Site.Data.team.enable }}
-<section class="section bg-gray">
+<section class="section" style="background-image: url('{{ .Site.Data.team.bg_image | absURL }}'); background-size: cover; background-position: center; background-attachment: fixed;">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-5 team-header">
-        <h2 class="section-title">{{ .Site.Data.team.title }}</h2>
-        <p>{{ .Site.Data.team.description }}</p>
+      <div class="col-md-8 col-md-offset-2 text-center mb-5 team-header">
+        <div class="team-header-box">
+          <h2 class="section-title">{{ .Site.Data.team.title }}</h2>
+          <p>{{ .Site.Data.team.description }}</p>
+        </div>
       </div>
     </div>
     <div class="row align-items-stretch">
