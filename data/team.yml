@@ -12,22 +12,21 @@ teamMember:
   social:
         - icon: "ion-social-linkedin"
           link: "#"
-  # - name: "Andrew Perdec"
-  #   designation: "Logistics & Operations"
-  #   image: "images/team/andrew.jpg"
-  #   description: "9 years of full-stack experience, specializing in supply acquisitions."
-  #   social:
-  #       - icon: "ion-social-linkedin"
-  #         link: "#"
-  #       - icon: "ion-email"
-  #         link: "mailto:andrew@example.com"
-
-  # - name: "Tanner Hicks"
-  #   designation: "Head of Sales"
-  #   image: "images/team/tanner.jpg"
-  #   description: "Expert in contract negotiation and client relations."
-  #   social:
-  #       - icon: "ion-social-linkedin"
-  #         link: "#"
+- name: "Tanner Hicks"
+  designation: "Vice President Marketing & Trading and CCO"
+  image: "images/team/tanner-hicks.png"
+  description: "Tanner brings extensive experience in natural gas liquids trading, specializing in both financial and physical propane and butane markets.
+    In his role as Vice President Marketing & Trading and CCO, he will provide strategic leadership while overseeing core commercial operations."
+  social:
+        - icon: "ion-social-linkedin"
+          link: "#"
+- name: "Anderw Perdec"
+  designation: "Vice President Supply & Logistics and COO"
+  image: "images/team/andrew-perdec.png"
+  description: "Andrew leads the logistical and operational strategies at Summerlin, bringing extensive experience in supply acquisition and NGL movement. As Vice President Supply & Logistics and COO, 
+    he is responsible for the firm's daily operational performance, managing the intersection of physical supply chains and commercial contracts to ensure seamless execution across the NGL value chain."
+  social:
+        - icon: "ion-social-linkedin"
+          link: "#"
 
   
