@@ -4,19 +4,19 @@ title: "Leadership"
 description: "Experts in energy commodities and logistics."
 
 teamMember:
-- name: "Gautam Sinha"
-  designation: "President & CEO"
-  image: "images/team/gautam-sinha.jpeg"
-  description: "Gautam is a seasoned energy executive with more than two decades of leadership experience in the North American natural gas liquids (NGL) and petrochemical industries.  
-    As President & CEO, Gautam brings strategic clarity, commercial discipline, and operational insight to the organization, directing its vision, growth, and performance across the NGL value chain."
-  social:
-        - icon: "ion-social-linkedin"
-          link: "#"
 - name: "Tanner Hicks"
   designation: "Vice President Marketing & Trading"
   image: "images/team/tanner-hicks.png"
   description: "Tanner brings extensive experience in natural gas liquids trading, specializing in both financial and physical propane and butane markets.
     In his role as Vice President Marketing & Trading, he will provide strategic leadership while overseeing core commercial operations."
+  social:
+        - icon: "ion-social-linkedin"
+          link: "#"
+- name: "Gautam Sinha"
+  designation: "President & CEO"
+  image: "images/team/gautam-sinha.jpeg"
+  description: "Gautam is a seasoned energy executive with more than two decades of leadership experience in the North American natural gas liquids (NGL) and petrochemical industries.  
+    As President & CEO, Gautam brings strategic clarity, commercial discipline, and operational insight to the organization, directing its vision, growth, and performance across the NGL value chain."
   social:
         - icon: "ion-social-linkedin"
           link: "#"
